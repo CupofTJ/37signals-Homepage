@@ -1,0 +1,153 @@
+#hi {
+	color: #999;
+	font-family: arial;
+	font-size: 13px;
+	margin: 30px;
+}
+
+/* nav starts here */
+
+nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+nav ul {
+	list-style-type: none;
+	margin-top: 30px;
+	margin-right: 50px;
+}
+
+nav li {
+	float: right;
+	padding-left: 25px;
+	font-family: arial;
+	font-size: 12px;
+}
+
+nav a{
+	text-decoration: none;
+	color: #084B8A;
+}
+
+nav a:hover{
+	color: #0489B1;
+}
+
+.highlight {
+	color: #04B4AE;
+}
+
+.active:hover {
+	color: black;
+}
+
+/* nav ends */
+
+/* heading starts here */
+
+section {
+	position: relative;
+	text-align: center;
+	margin-top: 45px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+h1 {
+	font-family: 'times new roman';
+	font-size: 50px;
+	margin: 10px 0;
+}
+
+/* heading ends */
+
+/* boxes starts here */
+
+.box {
+	display: inline-block;
+	border: 2px solid #F2F2F2;
+	width: 185px;
+	height: 240px;
+	padding-top: 19px;
+	margin: 10px 18px;
+	border-radius: 4px;
+	background: -webkit-linear-gradient(#FFF, #F2F2F2);
+	background: -moz-linear-gradient(#FFF, #F2F2F2);
+	background: -ms-linear-gradient(#FFF, #F2F2F2);
+	background: -o-linear-gradient(#FFF, #F2F2F2);
+	background: linear-gradient(#FFF, #F2F2F2);
+}
+
+.company {
+	font-family: arial;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.companyuse {
+	color: #CC0033;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.companyinfo {
+	width: 140px;
+	margin: 0 auto;
+	font-family: arial;
+	font-size: 15px;
+}
+
+/* boxes end */
+
+#astericks {
+	display: block;
+	margin: 20px auto;
+}
+
+.product {
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	width: 825px;
+	margin-left: -415px;
+
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.arrow {
+	position: absolute;
+}
+
+.bc .arrow {
+	top: 160px;
+	left: 30%;
+}
+
+.hr .arrow {
+	top: 160px;
+	left: 55%;
+}
+
+.cf .arrow {
+	top: 160px;
+	right: 30%;
+}
+
+.box h1 {
+	font-size: 40px;
+}
+
+.box h3 {
+	font-size: 18px;
+	margin: 0;
+}
